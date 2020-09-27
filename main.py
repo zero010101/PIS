@@ -11,6 +11,6 @@ def xor_crypt_string(data, key):
 
 
 if __name__ == '__main__':
-    result = xor_crypt_string('hello', 'key')
+    result = xor_crypt_string('buy', 'key')
     print(result)
 
