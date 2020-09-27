@@ -9,6 +9,8 @@ def xor_crypt_string(data, key):
         xored += chr(ord(x) ^ ord(y))
     return xored
 
+
 if __name__ == '__main__':
-    print(xor_crypt_string('hello', 'key'))
+    result = xor_crypt_string('hello', 'key')
+    print(result)
 
